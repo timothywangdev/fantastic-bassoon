@@ -37,7 +37,7 @@ def getBestVideoList(keywords):
 
     request = youtube.search().list(
         part="snippet",
-        maxResults=5,
+        maxResults=10,
         q=keywords,
         relevanceLanguage='en'
     )
@@ -51,7 +51,7 @@ def getBestVideoList(keywords):
                 best_content_list.append(file.read())
     return best_content_list """
 
-def getKeyPhrases(content_list, top = 20):
+def getKeyPhrases(content_list, top):
     def insertFrequency(keyPhrase):
         frequency = {'overall': 0, 'min': 0, 'max': 0, 'frequency_by_content': []}
         for content in content_list:
@@ -92,14 +92,22 @@ def getKeyPhrases(content_list, top = 20):
     """ for content in content_list_splited:
         print(len(content))
  """
-    keyPhrasesResponse = comprehend.batch_detect_key_phrases(TextList=content_list_splited, LanguageCode='en')
+    def chunks(l, n):
+        for i in range(0, len(l), n):
+         yield l[i:i + n]
 
-    entitiesResponse = comprehend.batch_detect_entities(TextList=content_list_splited, LanguageCode='en')
+    content_list_splited_chunks = list(chunks(content_list_splited, 25))
 
-    keyPhrasesByContent = list(map(lambda x: x['KeyPhrases'], keyPhrasesResponse['ResultList']))
-    entitiesByContent = list(map(lambda x: x['Entities'], entitiesResponse['ResultList']))
+    keyPhrasesByContent = []
+    entitiesByContent = []
+    for chunk in content_list_splited_chunks:
+        keyPhrasesResponse = comprehend.batch_detect_key_phrases(TextList=chunk, LanguageCode='en')
+        entitiesResponse = comprehend.batch_detect_entities(TextList=chunk, LanguageCode='en')
 
-    return filterPhrases(keyPhrasesByContent, 35), filterPhrases(entitiesByContent, 35)
+        keyPhrasesByContent.extend(list(map(lambda x: x['KeyPhrases'], keyPhrasesResponse['ResultList'])))
+        entitiesByContent.extend(list(map(lambda x: x['Entities'], entitiesResponse['ResultList'])))
+
+    return filterPhrases(keyPhrasesByContent, top), filterPhrases(entitiesByContent, top)
 
 def getTranscript(video_id):
     print('Getting transcript for '+video_id)
@@ -121,19 +129,25 @@ def printTable(phrases):
 # transcript = YouTubeTranscriptApi.get_transcript("RDjlhhbbPJE")
 
 
-keywords = 'best budget smartphones'
+keywords = 'How To Buy Your First Rental'
 print('Working on keywords: ' + keywords)
 video_list = getBestVideoList(keywords)
+# video_list = [{'id': {'videoId': 'kqMtDrsc5Pw'}}]
 transcript_list = []
 for video in video_list:
-    transcript_list.append(getTranscript(video['id']['videoId']))
+    try: 
+        transcript_list.append(getTranscript(video['id']['videoId']))
+    except:
+        pass
 
 content_list = []
 for transcript in transcript_list:
-    content = ' '.join(list(map(lambda x: x['text'], transcript)))
+    content = '. '.join(list(map(lambda x: x['text'], transcript)))
+    # print(content)
+    # print("\n\n")
     content_list.append(content)
 
-keyPhrases, entities = getKeyPhrases(content_list, top=50)
+keyPhrases, entities = getKeyPhrases(content_list, 100)
 
 # print top keyphrases table
 printTable(keyPhrases)

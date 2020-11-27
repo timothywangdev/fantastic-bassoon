@@ -1,0 +1,89 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "osLVk-N-4wWkNXPwGGh-fO7Kfow",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "4EU_e-XxQJ86D3u5GNJSq2IQGAM",
+      "id": "pvkTC2xIbeY",
+      "snippet": {
+        "publishedAt": "2020-06-17T15:00:11Z",
+        "channelId": "UCoSK_V3cwHyMNBTvzwfOELQ",
+        "title": "How to Add Chapters to YouTube Videos | Chapters Explained",
+        "description": "What are YouTube chapters? How are they different from timestamps? How to add chapters to YouTube videos? If you are confused and want to learn how to use the new YouTube feature, watch this video where Jan from @So geht YouTube discusses all of these topics. \n\n▬ Contents of this video  ▬▬▬▬▬▬▬▬▬▬\n\n0:00 - Intro\n0:10 - YouTube Chapters\n0:45 - What are YouTube chapters?\n1:17 - How to add chapter markers?\n2:42 - When are changes updated?\n3:02 - How to disable chapters?\n3:21 - Are chapters available in my country?\n\n\nYou probably know this problem: it’s hard to keep the attention of viewers, especially with longer videos. There might be a part later in the video that is interesting to viewers but how should they know? This is where the new YouTube chapter markers can help.\n\nWhat are YouTube chapters?\n\nChapters are generated based on the timestamps that creators include in their video's description.\nTimestamps have pretty much always been on YouTube. But what's new is that you can see certain parts of a video once you hover over the timeline of a video. This feature has been tested for some time and is now officially rolled out to everyone. \n\nHow do I add chapter markers to my videos? \n\n1) You need to add timestamps to your description. You can do this while uploading your video or later when editing it. It’s possible to add timestamps directly on YouTube or you can use tubics video editor (sign up for a 14-day free trial here: https://app.tubics.com/sign-up). The structure for timestamps is the following: \n\n00:XX - Text\n00:XX - Text \n00:XX - Text\n\nIt's very important that you put the zero timestamp first. Otherwise, it's not going to work. This needs to be the first timestamp! \n\nThese are the exact timestamps when each chapter starts. You can put little dashes afterward or you can just do a single space. This doesn't matter because YouTube will just take the text afterward.\n\n2) Update changes on YouTube. \nOnce you open a video on YouTube, you will see the chapters. \n\nWhen are changes updated? \n\nUsually immediately after you made them. If they don't update immediately, YouTube says that they will update in the next 24 hours. If they don't, make sure you formatted your timestamps correctly. \n\nCan I disable YouTube chapters? \n\nYes, you can! Just change the first time code from zero seconds to something else.\n\nAre chapter markers available in every country? \n\nAccording to YouTube, yes, they are. They are available in every country and every language. Warning! The chapter text will only be in the language of the creator. They are not going to be translated.\n\n▬ About tubics ▬▬▬▬▬▬▬▬▬▬▬▬\n\n#tubics is a Video Marketing software that helps businesses and YouTube creators to rank their videos better on search engines like YouTube and Google. This works in a similar way to search engine optimization (SEO) for websites, but just for YouTube videos. Users receive concrete suggestions for optimizing their videos and can implement them directly in the software.\n\nWhy tubics? Companies and creators invest a lot of money and time in their YouTube channels. Yet many are struggling with low video views. Better video metadata helps to make the video easier to find and thus reach more viewers.\n\nSign up free at https://www.tubics.com\n\n\n▬ More Videos  ▬▬▬▬▬▬▬▬▬▬▬▬\n\nSubscribe to @tubics : https://goo.gl/u73XvP\nAll tubics videos: https://goo.gl/cgGiDX\nJan's @So geht YouTube  Channel: https://goo.gl/4HNJUw\n\n\n▬ Social Media ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n► Facebook: https://www.facebook.com/tubicsteam/\n► LinkedIn: https://www.linkedin.com/company/tubics\n\n\n▬ Imprint ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\nImprint: https://goo.gl/DHpT3E",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pvkTC2xIbeY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pvkTC2xIbeY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pvkTC2xIbeY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pvkTC2xIbeY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/pvkTC2xIbeY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "tubics",
+        "tags": [
+          "youtube chapter markers",
+          "youtube video chapter",
+          "youtube video chapter markers",
+          "youtube video chapters",
+          "how to add video chapters youtube",
+          "how to add video chapter markers",
+          "what are youtube chapters",
+          "how to add timestamp on youtube",
+          "how to add timestamps in youtube description",
+          "how to add timestamps to youtube video",
+          "how to add chapters to youtube video",
+          "how to add video markers to a video",
+          "jan fassbender",
+          "tubics"
+        ],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "How to Add Chapters to YouTube Videos | Chapters Explained",
+          "description": "What are YouTube chapters? How are they different from timestamps? How to add chapters to YouTube videos? If you are confused and want to learn how to use the new YouTube feature, watch this video where Jan from @So geht YouTube discusses all of these topics. \n\n▬ Contents of this video  ▬▬▬▬▬▬▬▬▬▬\n\n0:00 - Intro\n0:10 - YouTube Chapters\n0:45 - What are YouTube chapters?\n1:17 - How to add chapter markers?\n2:42 - When are changes updated?\n3:02 - How to disable chapters?\n3:21 - Are chapters available in my country?\n\n\nYou probably know this problem: it’s hard to keep the attention of viewers, especially with longer videos. There might be a part later in the video that is interesting to viewers but how should they know? This is where the new YouTube chapter markers can help.\n\nWhat are YouTube chapters?\n\nChapters are generated based on the timestamps that creators include in their video's description.\nTimestamps have pretty much always been on YouTube. But what's new is that you can see certain parts of a video once you hover over the timeline of a video. This feature has been tested for some time and is now officially rolled out to everyone. \n\nHow do I add chapter markers to my videos? \n\n1) You need to add timestamps to your description. You can do this while uploading your video or later when editing it. It’s possible to add timestamps directly on YouTube or you can use tubics video editor (sign up for a 14-day free trial here: https://app.tubics.com/sign-up). The structure for timestamps is the following: \n\n00:XX - Text\n00:XX - Text \n00:XX - Text\n\nIt's very important that you put the zero timestamp first. Otherwise, it's not going to work. This needs to be the first timestamp! \n\nThese are the exact timestamps when each chapter starts. You can put little dashes afterward or you can just do a single space. This doesn't matter because YouTube will just take the text afterward.\n\n2) Update changes on YouTube. \nOnce you open a video on YouTube, you will see the chapters. \n\nWhen are changes updated? \n\nUsually immediately after you made them. If they don't update immediately, YouTube says that they will update in the next 24 hours. If they don't, make sure you formatted your timestamps correctly. \n\nCan I disable YouTube chapters? \n\nYes, you can! Just change the first time code from zero seconds to something else.\n\nAre chapter markers available in every country? \n\nAccording to YouTube, yes, they are. They are available in every country and every language. Warning! The chapter text will only be in the language of the creator. They are not going to be translated.\n\n▬ About tubics ▬▬▬▬▬▬▬▬▬▬▬▬\n\n#tubics is a Video Marketing software that helps businesses and YouTube creators to rank their videos better on search engines like YouTube and Google. This works in a similar way to search engine optimization (SEO) for websites, but just for YouTube videos. Users receive concrete suggestions for optimizing their videos and can implement them directly in the software.\n\nWhy tubics? Companies and creators invest a lot of money and time in their YouTube channels. Yet many are struggling with low video views. Better video metadata helps to make the video easier to find and thus reach more viewers.\n\nSign up free at https://www.tubics.com\n\n\n▬ More Videos  ▬▬▬▬▬▬▬▬▬▬▬▬\n\nSubscribe to @tubics : https://goo.gl/u73XvP\nAll tubics videos: https://goo.gl/cgGiDX\nJan's @So geht YouTube  Channel: https://goo.gl/4HNJUw\n\n\n▬ Social Media ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n► Facebook: https://www.facebook.com/tubicsteam/\n► LinkedIn: https://www.linkedin.com/company/tubics\n\n\n▬ Imprint ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\nImprint: https://goo.gl/DHpT3E"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT4M11S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "30658",
+        "likeCount": "868",
+        "dislikeCount": "33",
+        "favoriteCount": "0",
+        "commentCount": "381"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
